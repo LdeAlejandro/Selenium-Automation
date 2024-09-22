@@ -32,6 +32,7 @@ class LoginTest {
 	@Test
 	void test() {
 		WebElement emailAddressElement = driver.findElement(By.id("username"));
+		
 		emailAddressElement.sendKeys("letzalet@gmail.com");
 		
 		WebElement passwordElement = driver.findElement(By.name("password"));

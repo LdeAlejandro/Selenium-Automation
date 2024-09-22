@@ -14,7 +14,7 @@ public class AppTest {
         System.getProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://demoqa.com/");
+        driver.get("https://practice.automationtesting.in/my-account/");
         driver.quit();
     }
 	
