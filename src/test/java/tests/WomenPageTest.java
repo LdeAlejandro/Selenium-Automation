@@ -24,7 +24,7 @@ class WomenPageTest {
 	}
 
 	@Test
-	void test() {
+	void testTopsWomenPageCategoryFunctionality() {
 		//when
 		this.womenPage.viewTopWomenPage();
 		

@@ -24,7 +24,7 @@ class LoginPageTest {
 	}
 
 	@Test
-	void test() {
+	void LoginTest() {
 		//when
 		loginPage.signIn();
 		
